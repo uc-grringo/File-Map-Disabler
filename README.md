@@ -1,6 +1,6 @@
 # File-Map-Disabler
 -----------------------------
-+ this is a simple tool that works for any process that CreateFileMapping(OpenFileMapping)
++ this is a simple tool that works for any process that use [CreateFileMapping, OpenFileMapping]
 + basically it just open handle to the communication via MapViewOfFile [LPVOID Handle = MapViewOfFile(MappingHandle, FILE_MAP_ALL_ACCESS, 0, 0, 0)]
 + then you can get all data simply [char* data = static_cast<char*>(Handle);]
 + now you can read all the sensitive data, that are being sent between modules
