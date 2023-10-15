@@ -7,5 +7,5 @@
 + to clear all data you can do such [CopyMemory(data, emptyData, dataSize);]
 + target process might freeze for few seconds!
 -----------------------------
-THIS PROJECT WAS MADE FOR TRAINING/LEARNING PURPOSE!
+THIS PROJECT WAS MADE FOR TRAINING/LEARNING PURPOSE!\n
 IT WASN'T MADE TO DAMAGE ANY THIRD-PARTY SOFTWARE OR IT'S FUNCTIONALITY
